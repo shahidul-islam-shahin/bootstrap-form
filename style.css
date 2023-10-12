@@ -1,0 +1,91 @@
+.section-padding {
+    padding: 80px 0;
+}
+
+.white-box {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #f5f5f5;
+    padding: 30px;
+}
+
+.white-box h4, .colored-box h4 {
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+input:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+input[type=text],input[type=email],textarea,input[type=tel] {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 15px;
+}
+
+.contact-form input,textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    margin: 0;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+input[type=submit] {
+    background-color: #52b0fd;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.colored-box {
+    background-color: #52b0fd;
+    padding: 30px;
+    color: #fff;
+    min-height: 520px;
+}
+
+.colored-box a {
+    color: #fff;
+}
+.contact-info {
+    position: relative;
+    padding-left: 42px;
+    margin-bottom: 30px;
+}
+
+.contact-info .fa-solid {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    font-size: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #333;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 5px #333;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    color: #52b0fd;
+    box-shadow: 0 0 0;
+}
